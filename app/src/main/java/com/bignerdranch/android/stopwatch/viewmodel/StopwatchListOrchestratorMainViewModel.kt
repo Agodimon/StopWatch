@@ -1,6 +1,7 @@
 package com.bignerdranch.android.stopwatch.viewmodel
 
 import androidx.lifecycle.ViewModel
+import com.bignerdranch.android.stopwatch.viewmodel.TimestampMillisecondsFormatter.Companion.DEFAULT_TIME
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -49,6 +50,6 @@ class StopwatchListOrchestratorMainViewModel(
     }
 
     private fun clearValue() {
-        mutableTicker.value = "00:00:000"
+        mutableTicker.value = DEFAULT_TIME
     }
 }
