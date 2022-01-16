@@ -1,4 +1,4 @@
-package com.bignerdranch.android.stopwatch
+package com.bignerdranch.android.stopwatch.model
 
 sealed class StopwatchState {
 

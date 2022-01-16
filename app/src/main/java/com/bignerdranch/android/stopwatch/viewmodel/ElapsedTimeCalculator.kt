@@ -1,4 +1,7 @@
-package com.bignerdranch.android.stopwatch
+package com.bignerdranch.android.stopwatch.viewmodel
+
+import com.bignerdranch.android.stopwatch.model.TimestampProvider
+import com.bignerdranch.android.stopwatch.model.StopwatchState
 
 class ElapsedTimeCalculator(
     private val timestampProvider: TimestampProvider,

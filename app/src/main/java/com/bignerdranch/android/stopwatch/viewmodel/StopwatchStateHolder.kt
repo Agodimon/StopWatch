@@ -1,4 +1,6 @@
-package com.bignerdranch.android.stopwatch
+package com.bignerdranch.android.stopwatch.viewmodel
+
+import com.bignerdranch.android.stopwatch.model.StopwatchState
 
 class StopwatchStateHolder(
     private val stopwatchStateCalculator: StopwatchStateCalculator,
